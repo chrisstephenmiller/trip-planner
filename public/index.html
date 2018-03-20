@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trip Planner</title>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="./style.css"></link>
+  <script src="./bundle.js" defer></script>
+</head>
+
+<body>
+  <header>
+      <div class="logo">
+          <img alt="logo" src="logo.png" />
+    <nav>
+      </div id="nav-buttons">
+      <div class="nav-item">
+        <a id="finder" href="#">Plan</a>
+      </div>
+      <div class="nav-item">
+        <a href="#">About</a>
+      </div>
+      <div class="nav-item">
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <div id='page'>
+    <div id="map"></div>
+    <div id="sidebar">
+      <div id="options" class="sidebar-module">
+        <div id="hotels">
+          <h2>Hotels</h2>
+          <select>
+            <option value="volvo">Best Western River North</option>
+            <option value="saab">Kenzie Hotel</option>
+            <option value="mercedes">The Westin Chicago River North</option>
+          </select>
+        </div>
+        <div id="restaurants">
+          <h2>Restaurants</h2>
+          <select>
+            <option value="volvo">Ruth’s Chris Steak House</option>
+            <option value="saab">Hard Rock Cafe</option>
+            <option value="mercedes">Shaw’s Crab House</option>
+          </select>
+        </div>
+        <div id="activities">
+          <h2>Activities</h2>
+          <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+      </div>
+      <div id="itinerary" class="sidebar-module">
+        <!-- <h1>Itineray:</h1> -->
+        <div>
+          <h2>Hotels</h2>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Restaurants</h2>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Activities</h2>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
